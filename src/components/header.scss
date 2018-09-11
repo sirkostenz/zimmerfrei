@@ -1,0 +1,15 @@
+@import '../layouts/fonts.scss';
+
+header.header {
+  background: #bed8e0; /* Old browsers */
+  background: -moz-linear-gradient(top, #bed8e0 0%, #fbfcfd 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #bed8e0 0%,#fbfcfd 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #bed8e0 0%,#fbfcfd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bed8e0', endColorstr='#fbfcfd',GradientType=0 );
+  padding-top: 20px;
+  a {
+    color: #594f4a;
+    overflow: hidden;
+    display: block;
+  }
+}
